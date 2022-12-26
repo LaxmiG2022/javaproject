@@ -8,6 +8,7 @@ public class LinkedList1 {
 	    al.add(50);
 	    al.add("ram");
 	    al.add("geeta");
+	    
 	    System.out.println(al);
 	
 	}

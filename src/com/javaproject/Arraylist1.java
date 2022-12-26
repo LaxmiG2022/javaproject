@@ -6,10 +6,15 @@ public class Arraylist1 {
 
 	public static void main(String[] args) {
 		
-		ArrayList<Integer> al = new ArrayList<Integer>();
-		al.add(10);
-		al.add(50);
-		al.add(null);
-		System.out.println(al);
+		ArrayList<String> al = new ArrayList<String>();
+		al.add("ram");
+		al.add("seeta");
+		al.add("tarun");
+		
+	
+		for (String s : al) {
+			System.out.println(al);
+		}
+	
 	}
 }
